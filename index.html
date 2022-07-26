@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>DLO 2123247</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Masthead-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/img/icons/MAIN_MENU.png" alt="Home" height="80px" width="75px">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" alt="Help">
+                            <img src="assets/img/icons/HELP.png" height="80px" width="75px">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="buttonSound" href="#" alt="Activate sound">
+                            <img src="assets/img/icons/AUDIO_VERSION.png"  height="80px" width="75px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-heading">Harvard Referencing Guide</div>
+            <div class="masthead-subheading">Get ready to explore this guide, practice while developing your referencing
+                skills and take your written work to the next level!</div>
+            <a id="boton_iniciar" class="btn btn-primary btn-xl text-uppercase" href="menu.html">START</a>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 d-flex align-items-center">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <nav class="nav nav-mastfoot justify-content-center">
+                        <a class="nav-link" href="#" data-toggle="modal"
+                        data-target="#exampleModal">
+                            <img src="assets/img/icons/INSTRUCTIONS.png" height="110px" width="100px">
+                        </a>
+                        <a class="nav-link" href="#">
+                            <img src="assets/img/icons/LEARN_MORE.png" height="110px" width="100px">
+                        </a>
+                        <a class="nav-link" href="#">
+                            <img src="assets/img/icons/ASK_AND_CONTRIBUTE.png" height="110px" width="100px">
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Feedback</h2>
+                    <h3 class="section-subheading text-muted">It would be very helpful if you give us some anonymous feedback about your experience using this guide. Thanks in advance. we designed some questions you could think of to help you.</h3>
+                </div>
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <textarea class="form-control" id="name" rows="4" placeholder="Was the guide useful for you?, Did you learn anything new today?, What would you change or add to the guide?" data-sb-validations="required"></textarea>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                        </div>
+                    </div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase enabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><p style="color:black">INSTRUCTIONS TO USE</p></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="color:black; text-align: justify;">  
+                        •	This interactive guide will support your learning and practice on referencing your sources and including them in your academic written work. </br>
+                        •	You can navigate this guide according to your needs, remember you can come back any time you feel you need to. </br>
+                        •	You can get the downloaded file and use it offline. </br>
+                        •	There is a speaker icon at the top left, you can use the narrated version of this guide if you prefer.</br>
+                        •	There will be interactive activities for each kind of source to reference, do not worry if you don't get it right at the first attempt, there is no attempts limit</br>
+                        •	You can click on the 'Question Mark' button to get a hint on what you are missing or forgetting in your answer. </br>
+                        •	The 'Learn More' section will provide you with a variety of external links to videos, web pages, comparative charts and referencing manager tools that you can access if you want to deepen your learning </br>
+                        •	In the 'Learn More' section you can also get the link where you can book an appointment with the librarian for a 30-minutes tutorial. </br>
+                        •	The 'Ask&Contribute' section will take you to a Padlet board where you can ask any question that has been unsolved in the guide, ask for support if you have a source that you find hard to reference, you can also answer someone's questions or share additional tools and links that you have tried and think that may be useful for other students. </br>
+                        •	Please feel free to send us your feedback after you have used this referencing guide, it would be very helpful to hear your opinions and suggestions to provide a better experience.</br>
+                </p></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+<script>
+
+ 
+</script>
+</html>
