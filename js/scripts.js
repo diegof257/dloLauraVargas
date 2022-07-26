@@ -50,12 +50,12 @@ function validaBoton(valor,boton){
     if( $('#res6').val() != ""){
         if(correcto == resHtml){
             setTimeout(function(){
-                alert("WIN !!");
+                alert("Well done, you have correctly referenced your source, Congratulations! ");
            }, 200); 
            
         }else{
             setTimeout(function(){
-                alert("You are a fuking loser !!");
+                alert("Looks like something is not in the correct place! Try checking at the top of this page, the information and the order needed to follow the referencing format, and then try again.");
                 for(var i = 1; i <= 6; i++){
                     $('#btn'+i).attr('disabled', false);
                     document.getElementById("res"+i).value = "";
